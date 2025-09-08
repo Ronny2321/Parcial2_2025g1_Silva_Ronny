@@ -14,6 +14,7 @@ body.theme-light {
     color: #222;
 }
 
+/* Navbar oscuro */
 .theme-dark .navbar-custom {
     background: linear-gradient(180deg, rgba(27, 27, 27, 0.55), rgba(41, 41, 41, 0.55));
     backdrop-filter: blur(12px) saturate(140%);
@@ -41,6 +42,7 @@ body.theme-light {
     opacity: 1;
 }
 
+/* Navbar claro */
 .theme-light .navbar-custom {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(8px);
@@ -89,6 +91,7 @@ html {
     scroll-margin-top: calc(var(--nav-h) + 12px);
 }
 
+/* Modo oscuro */
 body.theme-dark {
     background-color: #1b1b1b;
     color: #fff;
@@ -232,7 +235,6 @@ body.theme-dark {
     margin-top: 2rem;
 }
 
-/* Modo claro */
 body.theme-light {
     background-color: #f8f9fa;
     color: #222;
@@ -256,6 +258,14 @@ body.theme-light {
     color: #222;
     transition: color .2s ease, opacity .2s ease;
     opacity: .9;
+}
+
+.theme-light .hero h1 {
+    color: #000;
+}
+
+.theme-light .hero p {
+    color: #000;
 }
 
 .theme-light .navbar-custom .nav-link:hover,

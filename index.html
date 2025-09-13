@@ -13,20 +13,22 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <div class="container-fluid">
-            <svg width="500" height="90" xmlns="http://www.w3.org/2000/svg">
-                <text class="open-bracket" x="20" y="70"> { </text>
-                <text class="coderhub" x="70" y="70">CoderHub</text>
-                <text class="dotrun" x="190" y="70">.run</text>
-                <text id="closing" class="close-bracket" x="20" y="70">}</text>
-                <animateTransform xlink:href="#closing" attributeName="transform" type="translate" from="0 0" to="230 0"
-                    dur="3s" repeatCount="indefinite" begin="0s" fill="freeze" />
-            </svg>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <svg width="260" height="60" xmlns="http://www.w3.org/2000/svg">
+                    <text class="open-bracket" x="10" y="50"> { </text>
+                    <text class="coderhub" x="50" y="50">CoderHub</text>
+                    <text class="dotrun" x="165" y="50">.run</text>
+                    <text id="closing" class="close-bracket" x="10" y="50">}</text>
+                    <animateTransform xlink:href="#closing" attributeName="transform" type="translate" from="0 0" to="200 0"
+                        dur="3s" repeatCount="indefinite" begin="0s" fill="freeze" />
+                </svg>
+            </div>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>

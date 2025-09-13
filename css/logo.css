@@ -1,0 +1,54 @@
+
+.open-bracket {
+    font-size: 40px;
+    font-family: monospace;
+    fill: #ff9800;
+    transition: fill 0.3s;
+}
+
+.coderhub {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    fill: #222;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 0.3s;
+    transition: fill 0.3s;
+}
+
+.dotrun {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    fill: #ff9800;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 1s;
+    transition: fill 0.3s;
+}
+
+.close-bracket {
+    font-size: 40px;
+    font-family: monospace;
+    fill: #ff9800;
+    transition: fill 0.3s;
+}
+
+body.theme-dark .open-bracket,
+body.theme-dark .close-bracket,
+body.theme-dark .dotrun {
+    fill: #ffa31a;
+}
+body.theme-dark .coderhub {
+    fill: #fff;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

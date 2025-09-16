@@ -1,3 +1,7 @@
+.theme-light .about-bg::before {
+  background: linear-gradient(120deg, rgba(255,255,255,0.55) 0%, rgba(255,163,26,0.13) 100%);
+  backdrop-filter: blur(2px) brightness(1.15);
+}
 .about-bg {
   position: relative;
   min-height: 100vh;

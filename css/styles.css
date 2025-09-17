@@ -542,11 +542,18 @@ body {
     background-color: #1b1b1b;
     color: #ffffff;
     padding-top: 80px;
+    min-width: 0;
+    overflow-x: hidden;
 }
+
+
 
 html {
     scroll-behavior: smooth;
+    min-width: 0;
+    overflow-x: hidden;
 }
+
 
 .navbar-custom {
     background: linear-gradient(180deg,

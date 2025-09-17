@@ -21,12 +21,27 @@
             <div class="container-fluid d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center">
                     <svg width="260" height="60" xmlns="http://www.w3.org/2000/svg">
-                        <text class="open-bracket" x="10" y="50"> { </text>
-                        <text class="coderhub" x="50" y="50">CoderHub</text>
-                        <text class="dotrun" x="165" y="50">.run</text>
+                        <text class="open-bracket" x="10" y="50">{</text>
+
+                        <text y="50">
+                            <tspan class="reveal-char coderhub" x="50">C</tspan>
+                            <tspan class="reveal-char coderhub" x="66">o</tspan>
+                            <tspan class="reveal-char coderhub" x="80">d</tspan>
+                            <tspan class="reveal-char coderhub" x="94">e</tspan>
+                            <tspan class="reveal-char coderhub" x="108">r</tspan>
+                            <tspan class="reveal-char coderhub" x="119">H</tspan>
+                            <tspan class="reveal-char coderhub" x="135">u</tspan>
+                            <tspan class="reveal-char coderhub" x="149">b</tspan>
+                            <tspan class="reveal-char dotrun" x="165">.</tspan>
+                            <tspan class="reveal-char dotrun" x="173">r</tspan>
+                            <tspan class="reveal-char dotrun" x="184">u</tspan>
+                            <tspan class="reveal-char dotrun" x="198">n</tspan>
+                        </text>
+
                         <text id="closing" class="close-bracket" x="10" y="50">}</text>
+
                         <animateTransform xlink:href="#closing" attributeName="transform" type="translate" from="0 0"
-                            to="200 0" dur="3s" repeatCount="indefinite" begin="0s" fill="freeze" />
+                            to="220 0" dur="2.5s" fill="freeze" begin="0.5s" />
                     </svg>
                 </div>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -144,6 +159,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/cambiarmodo.js"></script>
+    <script src="js/logo.js"></script>
 </body>
 
 </html>
